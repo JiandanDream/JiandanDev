@@ -15,7 +15,7 @@ sudo git clone --recursive https://github.com/JiandanDream/JiandanDev.git /opt/J
 
 Add templates
 ```sh
-ln -sv /opt/JiandanDev/templates ~/Library/Developer/Xcode/Templates/JiandanDev/
+ln -sv /opt/JiandanDev/templates ~/Library/Developer/Xcode/Templates/JiandanDev
 ```
 
 Restart Xcode
