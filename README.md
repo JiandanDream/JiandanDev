@@ -3,9 +3,13 @@ Xcode templates for JDAppTests which can add unit tests on devices.
 
 本项目是 Xcode 工程模板：JDAppTests，是对 Single View App 模板的修改。
 
-JDAppTests 是对 XCTests 的补充，实质是一个 App 工程，主要用于在真机上进行单元测试，一般用于对 Framework 的测试。
+开发 JDAppTests 的起因是 XCTest 无法在真机上进行单元测试。
 
-[JDAppTests 详细介绍](https://www.jianshu.com/p/a5cc2c2a0588)
+所以有了这样一个工具，它是对 XCTests 的补充，实质是一个 App 工程。
+
+主要满足在真机上进行单元测试的需求，一般用于对 Framework 的测试。
+
+[真机单元测试工具 JDAppTests 实现原理](https://www.jianshu.com/p/a5cc2c2a0588)
 
 ## How To Get Started
 Install
