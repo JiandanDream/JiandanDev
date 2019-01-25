@@ -65,7 +65,7 @@ e.g.
 
 If in Swift, you can add methods like this.
 
-若使用 Swift，可以这样添加测试方法：
+若使用 Swift，可以这样添加测试方法：
 
 ```objc
 // XXAppTests-Bridging-Header.h
