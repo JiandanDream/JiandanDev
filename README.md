@@ -63,6 +63,25 @@ e.g.
 
 ```
 
+If in Swift, you can add methods like this.
+
+若使用 Swift，可以这样添加测试方法：
+
+```objc
+// XXAppTests-Bridging-Header.h
+#import "JDAppTestCase.h"
+```
+
+```swift
+@testable import XX
+
+class SAppTests: JDAppTestCase {
+    @objc func testSS() {
+        print("ss")
+    }
+}
+```
+
 Run
 
 ![Example](https://ws3.sinaimg.cn/large/006tNc79gy1fqov2n91ing308w0hxgym.gif)
