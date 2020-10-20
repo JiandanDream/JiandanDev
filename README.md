@@ -29,15 +29,13 @@ Add a Target in Xcode and choose `JDAppTests` from the templates.
 
 Xcode 中新建一个 Target，选择 `JDAppTests`，创建一个 App 工程的 Target。
 
-![AddTarget](https://ws4.sinaimg.cn/large/006tNc79gy1fqovyzo9auj30cq0bujsb.jpg)
+![](img/20201020-212457.png)
 
-![CreateJDAppTests](https://ws4.sinaimg.cn/large/006tNc79gy1fqovz8kmzqj30jp08swey.jpg)
+![AddTarget](img/AppTests引用Framework.png)
 
 Add a `Cocoa Touch Class`, subclass of `JDAppTestCase`.
 
 创建一个类，继承自 JDAppTestCase。
-
-![Subclass](https://ws2.sinaimg.cn/large/006tNc79gy1fqovwoln2gj30ka0emq3l.jpg)
 
 Add methods with prefix `test`.
 
@@ -84,7 +82,7 @@ class SAppTests: JDAppTestCase {
 
 Run
 
-![Example](https://ws3.sinaimg.cn/large/006tNc79gy1fqov2n91ing308w0hxgym.gif)
+![Example](img/Demo.gif)
 
 Like XCTest, you can add any test methods quickly.
 
