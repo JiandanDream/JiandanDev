@@ -17,6 +17,7 @@
 // view model
 
 // support
+#import "Masonry.h"
 
 @interface ___FILEBASENAMEASIDENTIFIER___ ()
 
@@ -24,16 +25,21 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-// MARK: - Initialization
+// MARK: - Public
 
 // MARK: - Override
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self p_layout];
 }
 // MARK: - Event
 
 // MARK: - Private
+
+- (void)p_layout {
+    
+}
 
 // MARK: - Getters and setters
 

@@ -24,7 +24,7 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-// MARK: - Initialization
+// MARK: - Public
 
 // MARK: - Override
 

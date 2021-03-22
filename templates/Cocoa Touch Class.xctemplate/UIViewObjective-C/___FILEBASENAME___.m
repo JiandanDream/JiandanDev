@@ -17,6 +17,7 @@
 // view model
 
 // support
+#import "Masonry.h"
 
 @interface ___FILEBASENAMEASIDENTIFIER___ ()
 
@@ -24,13 +25,24 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-// MARK: - Initialization
+// MARK: - Public
 
 // MARK: - Override
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self p_layout];
+    }
+    return self;
+}
 
 // MARK: - Event
 
 // MARK: - Private
+- (void)p_layout {
+    
+}
 
 // MARK: - Getters and setters
 

@@ -25,7 +25,7 @@
 
 static NSString * const reuseIdentifier = @"Cell";
 
-// MARK: - Initialization
+// MARK: - Public
 
 // MARK: - Override
 
