@@ -1,8 +1,4 @@
-//
-//  ___FILENAME___
-//
-//  Created by caishaowu on ___DATE___.
-//
+//___FILEHEADER___
 
 ___IMPORTHEADER_cocoaTouchSubclass___
 

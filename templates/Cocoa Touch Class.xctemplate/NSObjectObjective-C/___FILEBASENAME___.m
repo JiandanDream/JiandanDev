@@ -1,22 +1,7 @@
-//
-//  ___FILENAME___
-//
-//  Created by caishaowu on ___DATE___.
-//
+//___FILEHEADER___
 
 #import "___FILEBASENAME___.h"
 
-// view controller
-
-// model
-
-// mgr
-
-// view
-
-// view model
-
-// support
 
 @interface ___FILEBASENAMEASIDENTIFIER___ ()
 

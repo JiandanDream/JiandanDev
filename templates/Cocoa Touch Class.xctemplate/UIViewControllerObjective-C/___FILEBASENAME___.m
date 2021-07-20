@@ -1,23 +1,7 @@
-//
-//  ___FILENAME___
-//
-//  Created by caishaowu on ___DATE___.
-//
+//___FILEHEADER___
 
 #import "___FILEBASENAME___.h"
-
-// view controller
-
-// model
-
-// mgr
-
-// view
-
-// view model
-
-// support
-#import "Masonry.h"
+#import <Masonry/Masonry.h>
 
 @interface ___FILEBASENAMEASIDENTIFIER___ ()
 
@@ -31,11 +15,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self p_addView];
     [self p_layout];
 }
 // MARK: - Event
 
 // MARK: - Private
+- (void)p_addView {
+    
+}
 
 - (void)p_layout {
     
